@@ -1,1 +1,31 @@
 ###  Propiedades
+
+- backdrop-filter: Tiene el mismo efecto que la propiedad filter, solo que los estilos se aplican al fondo (background) en lugar de aplicarse al elemento
+*backdrop-filter: blur() | brightness() | contrast() | drop-shadow() | grayscale() | hue-rotate() | invert() | opacity() | saturate() | sepia();*
+
+-backface-visibility: Decide si un elemento, girado 180º alrededor del eje X o Y, debe seguir visible ( el valor por defecto ) o no ( hidden ).
+*backface-visibility: hidden | visible;*
+
+- background-attachment: Se utiliza para controlar como se comportan las imágenes de fondo al desplazar la página.
+*background-attachment: scroll | fixed | local;*
+
+background-blend-mode: Utilizada para combinar dos imágenes de fondo, o una imagen y un color.
+*background-blend-mode: color | color-burn | color-dodge | darken | difference | exclusion | hard-light | hue | lighten | luminosity | multiply | normal | overlay | saturation | screen | soft-light*
+
+background-clip: Especifica hasta donde se extiende el fondo ( background ) de un elemento, ya sea color o imagen.
+*background-clip: border-box | padding-box | content-box | text | inherit;*
+
+background-size: Permite redimensionar las imágenes de fondo.
+*background-size: auto | contain | cover | tamañoX[ tamañoY]*
+
+break-inside: En el layout de columnas la propiedad break-inside se utiliza para controlar si romper o no un elemento html entre columnas.
+*En el layout de columnas la propiedad break-inside se utiliza para controlar si romper o no un elemento html entre columnas.*
+
+clip-path: Crea una región de recorte para que solo una parte del elemento HTML sea visible
+*clip-path: circle(50px at 0 100px);*
+
+content: Se utiliza junto con los pseudo-elementos ::before y ::after para generar el contenido que sde estos.
+*content: url(imagen.jpg);*
+
+object-fit: Especifica como el contenido de un elemento reemplazado ( <img>, <video> ) tiene que encajar en su propia caja definida con width y height.
+*object-fit: fill | contain | cover | none | scale-down*
